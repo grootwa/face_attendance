@@ -14,7 +14,7 @@ from flask import Flask, render_template, Response, jsonify, request
 import mediapipe as mp
 import config 
 
-# --- LOGGING SETUP ---
+# --- LOGGING SETUP ----
 logging.basicConfig(level=logging.WARNING)
 logging.getLogger("picamera2").setLevel(logging.ERROR)
 logging.getLogger("libcamera").setLevel(logging.ERROR)
